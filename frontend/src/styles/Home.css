@@ -1,0 +1,29 @@
+.hero{
+    background:#ff385c;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.home-container{
+    padding:50px;
+}
+
+.home-container h2{
+    margin-bottom:30px;
+}
+
+.listing-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    gap:30px;
+}

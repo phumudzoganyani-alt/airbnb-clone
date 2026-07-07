@@ -1,0 +1,40 @@
+
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  "email": "phumudzo@gmail.com",
+  "password": "Password123"
+}
+
+
+
+
+
+POST http://localhost:5000/api/bookings
+Authorization: Bearer 
+Content-Type: application/json
+
+{
+  "accommodation": "YOUR_ACCOMMODATION_ID",
+  "user": "YOUR_USER_ID",
+  "checkIn": "2026-07-10",
+  "checkOut": "2026-07-15",
+  "guests": 2,
+  "totalPrice": 5000
+}
+
+
+### Create Booking
+POST http://localhost:5000/api/bookings
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDkzMDBjNzY2MjBkZTQ1NjgxMjE5OCIsInJvbGUiOiJob3N0IiwiaWF0IjoxNzgzMzMwODEwLCJleHAiOjE3ODM5MzU2MTB9.Y0oha_S4WSPkYOE4NQaMc96xvV2hwHU8IeXWkV0eRUc
+Content-Type: application/json
+
+{
+  "accommodation": "PUT_ACCOMMODATION_ID_HERE",
+  "user": "PUT_USER_ID_HERE",
+  "checkIn": "2026-07-10",
+  "checkOut": "2026-07-15",
+  "guests": 2,
+  "totalPrice": 5000
+}
